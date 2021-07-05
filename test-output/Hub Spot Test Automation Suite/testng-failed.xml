@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Hub Spot Test Automation Suite]" parallel="tests">
+  <test name="Hub Spot Regression Test Cases(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.MyTest.LoginTest">
+        <methods>
+          <include name="verifyLogin"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.MyTest.LoginTest -->
+    </classes>
+  </test> <!-- Hub Spot Regression Test Cases(failed) -->
+</suite> <!-- Failed suite [Hub Spot Test Automation Suite] -->

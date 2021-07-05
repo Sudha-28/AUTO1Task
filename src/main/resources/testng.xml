@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AUTO1 Task">
+	<test name="AUTO1 Task" >
+		<parameter name="browser" value="chrome" />
+		<classes>
+
+			<class name="com.MyTest.ValidSearchTest" />
+			<class name="com.MyTest.InvalidSearchTest" />
+
+		</classes>
+	</test>
+</suite>

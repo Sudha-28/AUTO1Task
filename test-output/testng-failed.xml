@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AUTO1 Task]">
+  <parameter name="browser" value="chrome"/>
+  <test name="AUTO1 Task(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.MyTest.ValidSearchTest">
+        <methods>
+          <include name="verifySearch"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- com.MyTest.ValidSearchTest -->
+    </classes>
+  </test> <!-- AUTO1 Task(failed) -->
+</suite> <!-- Failed suite [AUTO1 Task] -->

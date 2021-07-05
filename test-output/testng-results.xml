@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AUTO1 Task" duration-ms="67570" started-at="2021-07-05T10:04:27Z" finished-at="2021-07-05T10:05:34Z">
+    <groups>
+    </groups>
+    <test name="AUTO1 Task" duration-ms="67570" started-at="2021-07-05T10:04:27Z" finished-at="2021-07-05T10:05:34Z">
+      <class name="com.MyTest.ValidSearchTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.MyTest.ValidSearchTest@4dfa3a9d]" name="setExtent" is-config="true" duration-ms="141" started-at="2021-07-05T15:34:27Z" finished-at="2021-07-05T15:34:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="SetUp(java.lang.String)[pri:0, instance:com.MyTest.ValidSearchTest@4dfa3a9d]" name="SetUp" is-config="true" duration-ms="5116" started-at="2021-07-05T15:34:27Z" finished-at="2021-07-05T15:34:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="verifySearchPageTitleTest()[pri:1, instance:com.MyTest.ValidSearchTest@4dfa3a9d]" name="verifySearchPageTitleTest" duration-ms="26" started-at="2021-07-05T15:34:32Z" finished-at="2021-07-05T15:34:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchPageTitleTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.MyTest.ValidSearchTest@4dfa3a9d]" name="tearDown" is-config="true" duration-ms="619" started-at="2021-07-05T15:34:32Z" finished-at="2021-07-05T15:34:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchPageTitleTest status=SUCCESS method=ValidSearchTest.verifySearchPageTitleTest()[pri:1, instance:com.MyTest.ValidSearchTest@4dfa3a9d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp(java.lang.String)[pri:0, instance:com.MyTest.ValidSearchTest@4dfa3a9d]" name="SetUp" is-config="true" duration-ms="3888" started-at="2021-07-05T15:34:33Z" finished-at="2021-07-05T15:34:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="verifySearch()[pri:2, instance:com.MyTest.ValidSearchTest@4dfa3a9d]" name="verifySearch" duration-ms="2228" started-at="2021-07-05T15:34:37Z" finished-at="2021-07-05T15:34:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearch -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.MyTest.ValidSearchTest@4dfa3a9d]" name="tearDown" is-config="true" duration-ms="746" started-at="2021-07-05T15:34:39Z" finished-at="2021-07-05T15:34:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearch status=SUCCESS method=ValidSearchTest.verifySearch()[pri:2, instance:com.MyTest.ValidSearchTest@4dfa3a9d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.MyTest.ValidSearchTest@4dfa3a9d]" name="endReport" is-config="true" duration-ms="336" started-at="2021-07-05T15:35:34Z" finished-at="2021-07-05T15:35:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.MyTest.ValidSearchTest -->
+      <class name="com.MyTest.InvalidSearchTest">
+        <test-method status="PASS" signature="SetUp(java.lang.String)[pri:0, instance:com.MyTest.InvalidSearchTest@6eebc39e]" name="SetUp" is-config="true" duration-ms="6913" started-at="2021-07-05T15:34:40Z" finished-at="2021-07-05T15:34:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="verifySearchPageTitleInvalidTest()[pri:1, instance:com.MyTest.InvalidSearchTest@6eebc39e]" name="verifySearchPageTitleInvalidTest" duration-ms="16" started-at="2021-07-05T15:34:46Z" finished-at="2021-07-05T15:34:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchPageTitleInvalidTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.MyTest.InvalidSearchTest@6eebc39e]" name="tearDown" is-config="true" duration-ms="633" started-at="2021-07-05T15:34:46Z" finished-at="2021-07-05T15:34:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchPageTitleInvalidTest status=SUCCESS method=InvalidSearchTest.verifySearchPageTitleInvalidTest()[pri:1, instance:com.MyTest.InvalidSearchTest@6eebc39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp(java.lang.String)[pri:0, instance:com.MyTest.InvalidSearchTest@6eebc39e]" name="SetUp" is-config="true" duration-ms="4224" started-at="2021-07-05T15:34:47Z" finished-at="2021-07-05T15:34:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="invalidBrandSearch()[pri:2, instance:com.MyTest.InvalidSearchTest@6eebc39e]" name="invalidBrandSearch" duration-ms="15662" started-at="2021-07-05T15:34:51Z" finished-at="2021-07-05T15:35:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidBrandSearch -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.MyTest.InvalidSearchTest@6eebc39e]" name="tearDown" is-config="true" duration-ms="676" started-at="2021-07-05T15:35:07Z" finished-at="2021-07-05T15:35:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidBrandSearch status=SUCCESS method=InvalidSearchTest.invalidBrandSearch()[pri:2, instance:com.MyTest.InvalidSearchTest@6eebc39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp(java.lang.String)[pri:0, instance:com.MyTest.InvalidSearchTest@6eebc39e]" name="SetUp" is-config="true" duration-ms="3959" started-at="2021-07-05T15:35:08Z" finished-at="2021-07-05T15:35:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="invalidModelSearch()[pri:3, instance:com.MyTest.InvalidSearchTest@6eebc39e]" name="invalidModelSearch" duration-ms="16449" started-at="2021-07-05T15:35:12Z" finished-at="2021-07-05T15:35:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidModelSearch -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.MyTest.InvalidSearchTest@6eebc39e]" name="tearDown" is-config="true" duration-ms="666" started-at="2021-07-05T15:35:28Z" finished-at="2021-07-05T15:35:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidModelSearch status=SUCCESS method=InvalidSearchTest.invalidModelSearch()[pri:3, instance:com.MyTest.InvalidSearchTest@6eebc39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp(java.lang.String)[pri:0, instance:com.MyTest.InvalidSearchTest@6eebc39e]" name="SetUp" is-config="true" duration-ms="3844" started-at="2021-07-05T15:35:29Z" finished-at="2021-07-05T15:35:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="invalidkm()[pri:4, instance:com.MyTest.InvalidSearchTest@6eebc39e]" name="invalidkm" duration-ms="286" started-at="2021-07-05T15:35:33Z" finished-at="2021-07-05T15:35:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidkm -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.MyTest.InvalidSearchTest@6eebc39e]" name="tearDown" is-config="true" duration-ms="1095" started-at="2021-07-05T15:35:33Z" finished-at="2021-07-05T15:35:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidkm status=SUCCESS method=InvalidSearchTest.invalidkm()[pri:4, instance:com.MyTest.InvalidSearchTest@6eebc39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTest.InvalidSearchTest -->
+    </test> <!-- AUTO1 Task -->
+  </suite> <!-- AUTO1 Task -->
+</testng-results>
